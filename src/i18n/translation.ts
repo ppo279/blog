@@ -9,7 +9,7 @@ export type Translation = {
   [K in I18nKey]: string
 }
 
-const defaultTranslation = en
+const defaultTranslation = zh_CN
 
 const map: { [key: string]: Translation } = {
   en: en,
